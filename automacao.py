@@ -22,8 +22,9 @@ time.sleep(1.5)
 py.press("enter")
 #passo 3: fazer login no site
 
-py.click(x=725, y=350)
 time.sleep(1.5)
+py.click(x=774, y=364)
+time.sleep(2.5)
 py.write("joaohenrique@gmail.com")
 time.sleep(0.4)
 py.press("tab")
@@ -34,7 +35,7 @@ py.press("enter")
 #passo 4: cadastrar os produtos
 import pandas as pd 
 tabela = pd.read_csv('produtos.csv')
-print(tabela)
+
 
 
 
